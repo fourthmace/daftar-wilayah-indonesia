@@ -215,5 +215,4 @@ class WilayahModifiedServiceImpl implements WilayahModifiedService
             throw new GeneralException($th->getMessage(), 500);
         }
     }
-
 }

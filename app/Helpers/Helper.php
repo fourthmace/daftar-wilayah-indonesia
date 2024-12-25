@@ -142,7 +142,7 @@ function MonthToIndonesia($stringDate)
  * @param Illuminate\Http\Request $request
  * @param string $siteId
  */
-function authorizeSite(Request $request, string $siteId) : void 
+function authorizeSite(Request $request, string $siteId) : void
 {
     if ($request->user->user_level->id != 1) {
         if ($request->user->site->id != $siteId) {
